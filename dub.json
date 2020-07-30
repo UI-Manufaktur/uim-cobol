@@ -1,9 +1,23 @@
 {
-	"authors": [
-		"Ozan"
-	],
-	"copyright": "Copyright © 2020, Ozan",
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "uim-cobol"
+    "name": "uim-cobol",
+    "authors": ["UI Manufaktur Team"],
+    "description": "D library for ReactJs projects",
+    "copyright": "Copyright © 2017-2020, UI Manufaktur UG (haftungsbeschränkt)",
+    "license": "MIT",
+    "targetType": "library",
+    "dependencies": {
+        "vibe-d": "~>0.9.0"
+    },
+    "sourcePaths": [
+        "../uim-core",
+        "../uim-oop",
+        "../uim-json",
+        "./"
+    ],
+    "importPaths": [
+        "../uim-core",
+        "../uim-oop",
+        "../uim-json",
+        "./"
+    ]
 }
