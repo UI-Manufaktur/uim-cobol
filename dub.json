@@ -1,23 +1,26 @@
 {
-    "name": "uim-cobol",
-    "authors": ["UI Manufaktur Team"],
-    "description": "D library for ReactJs projects",
-    "copyright": "Copyright © 2017-2020, UI Manufaktur UG (haftungsbeschränkt)",
-    "license": "MIT",
+    "name": "lang-cobol",
+    "description": "D library for Cobol projects",
+    "authors": [
+        "Sicherheitsschmiede",
+        "Ozan Nurettin Süel"
+      ],
+      "copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+      "license": "Apache-2.0",
     "targetType": "library",
     "dependencies": {
-        "vibe-d": "~>0.9.0"
+        "vibe-d": "~>0.9.5"
     },
     "sourcePaths": [
-        "../uim-core",
-        "../uim-oop",
-        "../uim-json",
+        "../../LIBS/uim-core",
+        "../../LIBS/uim-oop",
+        "../../LIBS/uim-compilers",
         "./"
     ],
     "importPaths": [
-        "../uim-core",
-        "../uim-oop",
-        "../uim-json",
+        "../../LIBS/uim-core",
+        "../../LIBS/uim-oop",
+        "../../LIBS/uim-compilers",
         "./"
     ]
 }
